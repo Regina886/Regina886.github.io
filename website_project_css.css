@@ -259,6 +259,10 @@ footer {
     font-size: 1.4em;
   }
 
+@media only screen and (max-width: 600px) {
+    iframe {width:300px!important}
+  }
+
 /*Responsive navbar that collapses when items are not visible any longer in a narrow view*/
 @media (max-width: 1050px) {
 .navbar-header {
